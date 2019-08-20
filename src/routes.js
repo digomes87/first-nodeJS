@@ -5,3 +5,4 @@ const routes = new  express.Router();
 routes.post('/posts',PostController.Store);
 
 module.exports = routes;
+
